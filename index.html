@@ -8,12 +8,14 @@
   <link rel="stylesheet" href="css/login.css">
   <title>Login</title>
 </head>
+
 <body>
+
   <div class="container">
     <div class="forms-container">
       <div class="signin-signup">
         <form action="#" class="sign-in-form">
-          <h2>Inicia sesión</h2>
+          <h2 class="title">Inicia sesión</h2>
           <div class="input-field">
             <i class="fas fa-user"></i>
             <input type="text" placeholder="Nombre de Usuario">
@@ -31,8 +33,8 @@
             <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
         </div>
         </form>
-        <form action="#" class="sign up form">
-          <h2>Registrate</h2>
+        <form action="#" class="sign-up-form">
+          <h2 class="title">Registrate</h2>
           <div class="input-field">
             <i class="fas fa-user"></i>
             <input type="text" placeholder="Nombre de Usuario">
@@ -42,11 +44,42 @@
             <input type="email" placeholder="Email">
           </div>
           <div class="input-field">
-            <i class="fas fa-unlock"></i>
+            <i class="fas fa-lock"></i>
             <input type="password" placeholder="Contraseña">
           </div>
           <input type="submit" class="btn" value="Registrarse ">
+          <p class="social-text">O registrate con plataformas</p>
+          <div class="social-media">
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
         </form>
+      </div>
+    </div>
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>Nuevo aquí</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Perspiciatis harum, aliquid reprehenderit. Ipsam facere aliquid
+            enim id eveniet. Non itaque impedit rerum eligendi, doloribus aspernatur
+            molestias laborum sed ducimus tempora.</p>
+            <button class="btn transparent" id="sign-up-btn">Registrate</button>
+        </div>
+        <img src="img/log.svg" alt="" class="image">
+      </div>
+      <div class="panel right-panel">
+        <div class="content">
+          <h3>Ya tienes cuenta</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Nostrum quae odio quasi, magnam eum accusantium quas,
+             nemo nesciunt aperiam, voluptates laudantium rem.
+             Aspernatur porro vel nam est officia, deserunt nisi.</p>
+          <button class="btn transparent" id="sign-in-btn">Inicia sesión</button>
+        </div>
+        <img src="img/register.svg" alt="">
       </div>
     </div>
   </div>
